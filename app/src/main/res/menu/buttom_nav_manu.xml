@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:id="@+id/taxi"
+    android:title="Taxi"
+    android:icon="@drawable/cars6" />
+    <item
+        android:id="@+id/acomo"
+        android:title="Accomodation"
+        android:icon="@drawable/bedroom_hotel_svgrepo_com"/>
+    <item
+        android:id="@+id/food"
+        android:title="Food"
+        android:icon="@drawable/cupcake" />
+
+
+
+</menu>

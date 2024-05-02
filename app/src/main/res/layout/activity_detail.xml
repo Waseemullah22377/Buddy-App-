@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/orange"
+    android:backgroundTint="@color/orange"
+    tools:context=".Detail_Activity">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="10dp"
+            android:layout_margin="5dp"
+            app:cardElevation="30dp">
+
+            <ImageView
+                android:id="@+id/DImg"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:scaleType="centerCrop" />
+
+        </androidx.cardview.widget.CardView>
+
+
+        <TextView
+            android:id="@+id/DName"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3sp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:background="@drawable/shap"
+            android:drawableStart="@drawable/baseline_person_24"
+            android:padding="7dp"
+            android:text="driver Name"
+            android:textColorHint="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/DModel"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3sp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:drawableStart="@drawable/modelicon"
+            android:background="@drawable/shap"
+            android:padding="7dp"
+            android:text="careModel"
+            android:textColorHint="@color/black"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/DContact"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/DModel"
+            android:layout_marginStart="3dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shap"
+            android:drawableStart="@drawable/phone_call_outgoing_svgrepo_com"
+            android:padding="7dp"
+            android:text="contact"
+            android:textColorHint="@color/black"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/DAdress"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:background="@drawable/shap"
+
+            android:drawableStart="@drawable/address"
+            android:padding="7dp"
+            android:text="Address"
+            android:textColorHint="@color/black"
+            android:textSize="18sp" />
+
+
+        <!--    <View-->
+        <!--        android:id="@+id/black_line"-->
+        <!--        android:layout_width="match_parent"-->
+        <!--        android:layout_height="1dp"-->
+        <!--        android:layout_below="@id/DAdress"-->
+        <!--        android:layout_marginTop="7dp"-->
+        <!--        android:layout_marginBottom="10dp"-->
+        <!--        android:background="@color/black" />-->
+        <!--  </androidx.cardview.widget.CardView>-->
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="#C1C2D5"
+            app:cardCornerRadius="15dp">
+
+
+
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/Call_btn"
+                android:layout_width="35dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/phone_call_outgoing_svgrepo_com" />
+
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/Whatsapp_btn"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="95dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/whatsapp_icon_logo_svgrepo_com" />
+
+        </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/book"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:padding="7dp"
+        android:background="@drawable/color_for_booing_button"
+        android:text="Book"
+        android:textSize="18sp" />
+    </LinearLayout>

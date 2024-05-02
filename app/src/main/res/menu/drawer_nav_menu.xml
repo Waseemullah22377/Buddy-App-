@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/accountcircle"
+        android:title="Profile"
+        />
+
+    <item
+        android:id="@+id/nav_add"
+        android:icon="@drawable/addicon"
+        android:title="ADD"
+
+        />
+
+    <item
+        android:id="@+id/nav_login"
+        android:icon="@drawable/loginicon"
+        android:title="Login" />
+
+    <item
+        android:id="@+id/Logout"
+        android:title="Log Out"
+        android:icon="@drawable/logout_icon"/>
+
+    <item
+        android:id="@+id/data"
+        android:title="My Posted Data"
+        android:icon="@drawable/data_set"/>
+
+
+</menu>
+
+

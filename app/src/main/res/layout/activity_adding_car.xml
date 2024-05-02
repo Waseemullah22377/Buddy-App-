@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/orange"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".userAddingData.AddingCar">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:text="Add car"
+        android:textSize="30sp"
+        android:background="@color/read"
+        android:textStyle="bold|italic" />
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:backgroundTint="@color/read"
+        app:cardCornerRadius="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/read"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <EditText
+                android:id="@+id/drivrN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:drawableStart="@drawable/baseline_person_24"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/shap"
+                android:hint="DriverName"
+                android:padding="7dp"
+                android:textColorHint="@color/black"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/carmodl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/shap"
+                android:hint="careModel"
+                android:padding="7dp"
+                android:textColorHint="@color/black"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/contact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:drawableStart="@drawable/phone_call_outgoing_svgrepo_com"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/shap"
+                android:hint="contact"
+                android:padding="7dp"
+                android:textColorHint="@color/black"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/shap"
+                android:drawableStart="@drawable/address"
+                android:hint="Address"
+                android:padding="7dp"
+                android:textColorHint="@color/black"
+                android:textSize="18sp"
+
+                />
+
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:onClick="insertImage"
+                android:src="@drawable/addimageicon"
+                android:background="@drawable/imagebg2"
+                android:scaleType="centerCrop" />
+
+           <!-- <TextView
+                android:id="@+id/pick"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="@drawable/shap"
+                android:hint="pick image"
+                android:backgroundTint="#3B6597CC"
+                android:onClick="insertImage"
+                android:textColor="@color/black"
+                android:padding="5dp"
+                android:textSize="18sp" />-->
+
+            <TextView
+                android:id="@+id/btnadd"
+                android:layout_width="130dp"
+                android:textColorHint="@color/black"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:background="@drawable/shap"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:text="Add"
+                android:textAlignment="center"
+                android:textSize="22sp" />
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

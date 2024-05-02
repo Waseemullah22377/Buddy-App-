@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.BuddyApP" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <!--          tab bar colore-->
+
+        <item name="colorPrimary">@color/read</item>
+        <item name="colorPrimaryDark">#B71C1C</item>
+        <item name="colorAccent">#F57F17</item>
+        <!-- Customize your light theme here.    Theme.AppCompat.Light.DarkActionBar-->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.BuddyApP" parent="Base.Theme.BuddyApP"/>
+</resources>
+
+

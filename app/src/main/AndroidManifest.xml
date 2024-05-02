@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/splash111"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/splash111"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BuddyApP"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".Screens.AccomodationProvider"
+            android:exported="false" />
+        <activity
+            android:name=".Screens.FoodProvider"
+            android:exported="false" />
+        <activity
+            android:name=".Screens.CarProvider"
+            android:exported="false" />
+        <activity
+            android:name=".ScrollViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".userAddingData.Food_ScrollViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".userAddingData.Food_Detail_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".userAddingData.Accomodation_ScrollViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".userAddingData.Acccomodation_Detail_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Detail_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Screens.ProfileActivity"
+            android:exported="false"
+            android:label="@string/title_activity_profile"
+            android:theme="@style/Theme.BuddyApP" />
+        <activity
+            android:name=".userAddingData.AddingFood"
+            android:exported="false" />
+        <activity
+            android:name=".userAddingData.AddingAccomodation"
+            android:exported="false" />
+        <activity
+            android:name=".userAddingData.AddingCar"
+            android:exported="false" />
+        <activity
+            android:name=".Screens.SignUpScreen"
+            android:exported="false" />
+        <activity
+            android:name=".Screens.LonginScreen"
+            android:exported="false" />
+        <activity
+            android:name=".Screens.SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Screens.MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>

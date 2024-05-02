@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        app:cardBackgroundColor="#EA7713"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="2dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="#EA7713"
+            android:orientation="vertical">
+            <androidx.cardview.widget.CardView
+                android:layout_width="160dp"
+                android:layout_height="130dp"
+                android:layout_marginTop="4dp"
+                android:layout_gravity="center"
+                app:cardCornerRadius="10dp">
+
+
+                <ImageView
+                    android:id="@+id/layoutImgACCOMODATION"
+                    android:layout_width="160dp"
+                    android:layout_height="130dp"
+                    android:layout_toRightOf="@+id/tvName"
+                    android:scaleType="centerCrop" />
+
+            </androidx.cardview.widget.CardView>
+
+
+            <TextView
+                android:id="@+id/tvNameACCOMODATION"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="20sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/shap"
+                android:drawableStart="@drawable/baseline_person_24"
+                android:padding="7dp"
+                android:text="Hotel/Building Name"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/tvnicACCOMODATION"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="20sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/shap"
+                android:padding="7dp"
+                android:text="Address"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                />
+
+
+            <TextView
+                android:id="@+id/tvAdressACCOMODATION"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:visibility="gone"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/shap"
+                android:padding="7dp"
+                android:text="Enter your Addres"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/tvContactACCOMODATION"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:padding="5dp"
+                android:text="Enter Your contact"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:visibility="gone"
+                app:drawableStartCompat="@drawable/phone_call_outgoing_svgrepo_com" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/Accomodation_Viewbtn"
+                    android:layout_width="65dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="13dp"
+                    android:background="@drawable/tv_bg2"
+                    android:backgroundTint="#FAF5EA17"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:text="View"
+                    android:layout_marginBottom="5dp"
+
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
